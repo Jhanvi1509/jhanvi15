@@ -1,0 +1,888 @@
+
+
+                    Frontend Assignment Set
+
+
+
+                       Module 1 – Foundation
+
+
+
+• What is a HTTP?
+
+Ans: HTTP stands for Hyper Text Transfer Protocol.
+
+
+
+     Client (you) types a URL in a browser.
+
+
+
+     HTTP Request is sent to the server.
+
+
+
+     Server receives the request and sends back an HTTP Response.
+
+
+
+     Browser displays the content to you.
+
+
+
+• What is a Browsers? How they works?
+
+Ans: A browser is a software application that allows you to access, view, and interact with websites on the Internet.
+
+     Examples : Google Chrome , mozilla firefox , safari , opera
+
+     How browser work: You type a website URL. Browser sends a request to the server.
+
+                 Server sends back website files. Browser shows the page on your screen.
+
+
+
+• What is Domain Name?
+
+Ans: Domain name is Easy-to-remember name for a website.
+
+     Examples : .com
+
+                .org
+
+                .in
+
+
+
+• What is hosting?
+
+Ans: Hosting means storing your website's files (HTML, images, videos, etc.) on a server so that people can access your website on the internet.
+
+     Popular Hosting Providers: GoDaddy. Google Cloud
+
+ 
+
+
+
+ 
+
+ 
+
+            ** Module 2 – Fundamentals of World Wide Web** 
+
+
+
+ **THEORY EXERCISE:**
+
+
+
+• Difference between Web Designer and Web Developer?
+
+Ans:  
+
+          Web Designer	                                                              Web Developer
+
+Focuses on the look and feel of a website	                         Focuses on the functionality and coding of a website
+
+Works with tools like Figma, Adobe XD, Photosho                          Works with HTML, CSS, JavaScript, Python, PHP, etc.
+
+Creates layout, colors, fonts, and user interface (UI)   	         Builds the backend and frontend functionality
+
+Ensures the site is visually appealing and user-friendly	         Ensures the site is interactive and works properly
+
+Uses design principles and UI/UX knowledge	                         Uses programming and debugging skills
+
+
+
+• What is a W3C? 
+
+Ans: W3C stands for World Wide Web Consortium.
+
+
+
+🔹 It is the main international organization that develops web standards.
+
+🔹 Founded by Tim Berners-Lee (the inventor of the Web) in 1994.
+
+🔹 Its goal is to ensure that the web is accessible, open, and works the same everywhere.
+
+
+
+• What is Domain?
+
+Ans: A Domain is the name of a website that people type in the browser to visit it.
+
+
+
+🔹 Example: google.com, facebook.com
+
+🔹 It is a human-friendly address for a website, instead of using an IP address like 192.168.1.1.
+
+
+
+• What SEO? 
+
+Ans: SEO stands for Search Engine Optimization.
+
+
+
+🔹 It is the process of improving a website so that it appears higher in search engine results (like Google).
+
+🔹 The goal is to get more visitors to a website organically (without paying for ads).
+
+
+
+• What is SDLC life cycle?
+
+Ans: SDLC stands for Software Development Life Cycle.
+
+
+
+🔹 It is a step-by-step process used to develop software.
+
+🔹 It helps ensure that the software is well-planned, high quality, and delivered on time.
+
+
+
+               **Module 3 – Fundamentals of IT** 
+
+
+
+What is a Program?
+
+ Explain in your own words what a program is and how it functions.
+
+&nbsp;Ans:Written by a Programmer: A programmer writes code using a language like Python, Java, or C++.
+
+    Converted into Machine Language: The code is compiled or interpreted into binary (0s and 1s) that the computer can understand.
+
+    Executed by the Computer: The computer’s processor follows the instructions line by line and performs the tasks, such as displaying a message, calculating numbers, or saving a file.
+
+
+
+What is Programming?
+
+THEORY EXERCISE: What are the key steps involved in the programming process?
+
+Ans: Key Steps in the Programming Process:
+
+  1. Understanding the Problem
+
+     Clearly define what needs to be done.
+
+     Understand the requirements, inputs, outputs, and constraints.
+
+  2. Planning the Solution
+
+     Design the logic of the program using flowcharts, algorithms, or pseudocode.
+
+     Break the problem into smaller, manageable parts.
+
+  3. Writing the Code
+
+     Use a programming language (like Python, Java, C++) to write the actual code based on your plan
+
+  4. Testing and Debugging
+
+     Run the program to check if it works correctly.
+
+     Debug any errors (syntax or logic errors) and fix them
+
+  5. Documentation
+
+     Write comments and documentation to explain what the code does.
+
+     Help  others (and yourself) understand the program later.
+
+  6. Maintenance
+
+     Update and improve the program as needed.
+
+     Fix bugs, add new features, or adapt it to new requirements.
+
+
+
+Types of Programming Languages
+
+THEORY EXERCISE: What are the main differences between high-level and low-level programminglanguages?
+
+Ans:
+
+ Feature	                        High-Level Language	                                          Low-Level Language
+
+Closeness to Hardware	         Far from hardware (more abstract)	                                Close to hardware
+
+Readability	                 Easy to read and understand (like English)	                        Hard to read (machine-oriented)
+
+Examples	                 Python, Java, C++, JavaScript	                                        Assembly language, Machine code
+
+Portability	                 Highly portable across systems                                         Not easily portable
+
+Speed/Performance	         Slower compared to low-level                                          Faster and more efficient
+
+Ease of Use	                 Easier to learn and write	                                       Difficult to learn, requires hardware knowledge
+
+Compilation/Interpretation	 Needs to be compiled or interpreted             	               Often runs directly on hardware or via assembler
+
+
+
+
+
+World Wide Web \& How Internet Works
+
+THEORY EXERCISE: Describe the roles of the client and server in web communication.
+
+ANS: In web communication, the client and server are two key parts that work together to exchange data over the internet.
+
+   Client: The client is usually the web browser (like Chrome, Firefox).
+
+           It sends a request to the server (e.g., asking for a webpage or file).
+
+    Server: The server is a computer that hosts websites, files, and databases.
+
+            It listens for client requests, processes them, and sends back the correct response.
+
+
+
+Network Layers on Client and Server
+
+THEORY EXERCISE: Explain the function of the TCP/IP model and its layers.
+
+Ans:Function of TCP/IP Model: It defines how data is sent, addressed, transmitted, and received across networks.
+
+                           Ensures reliable communication between devices (like computers, phones, servers).
+
+| Layer                           | Function                                                                 | Examples               |
+
+| ------------------------------- | ------------------------------------------------------------------------ | ---------------------- |
+
+| 1. Application\*\*                | Interfaces directly with software/apps. Sends and receives data.         | HTTP, FTP, DNS, SMTP   |
+
+| 2. Transport\*\*                  | Ensures reliable data delivery, handles error checking and flow control. | TCP, UDP               |
+
+| 3. Internet\*\*                   | Handles addressing and routing of data across networks.                  | IP (Internet Protocol) |
+
+| 4. Network Access\*\*(or Link)    | Manages physical data transmission over hardware like cables and Wi-Fi.  | Ethernet, Wi-Fi        |
+
+
+
+
+
+
+
+Client and Servers
+
+THEORY EXERCISE: Explain Client Server Communication
+
+Ans:Client-server communication is a model where a client (usually a user's device or browser) sends a request to a server, and the server processes the request and sends back a response.
+
+ It is the foundation of web and network communication.
+
+
+
+Types of Internet Connections
+
+THEORY EXERCISE: How does broadband differ from fiber-optic internet?
+
+Ans:  1. Broadband Internet:
+
+      Broadband is a general term for high-speed internet that includes multiple types such as:
+
+      DSL (Digital Subscriber Line)
+
+      Cable
+
+      Satellite
+
+    2. Fiber-Optic Internet:
+
+       Uses thin strands of glass or plastic (fiber-optic cables) to transmit data as light signals.
+
+       Delivers data at very high speeds over long distances with minimal loss.
+
+       Speed: Extremely fast (up to 1 Gbps or more).
+
+       Latency: Very low (ideal for real-time tasks like video calls, gaming).
+
+  
+
+Protocols
+
+THEORY EXERCISE: What are the differences between HTTP and HTTPS protocols?
+
+Ans:Both HTTP and HTTPS are protocols used to transfer data between a web browser (client) and a web server.
+
+ The main difference lies in security.
+
+  Example:
+
+          http://example.com → Not secure
+
+
+
+
+
+Application Security
+
+THEORY EXERCISE: What is the role of encryption in securing application, Software Applications and Its Types
+
+Ans: Encryption is the process of converting plain text into unreadable code (cipher text) to protect data from unauthorized access.
+
+   What is a Software Application?
+
+ software application is a computer program designed to help users perform specific tasks like browsing, writing, gaming, or designing.
+
+Type                                         Description	                                                Examples
+
+1\. System Software	      Helps run the computer hardware and system.	                                  Windows, macOS, Linux
+
+2\. Application Software	Designed for end-users to perform specific tasks.	                MS Word, Photoshop, Chrome
+
+3\. Web Applications	       Run in a browser and accessed via the internet.                            	Gmail, Google Docs, Facebook
+
+4\. Mobile Applications 	Designed for smartphones and tablets.                                        	WhatsApp, Instagram, Paytm
+
+5\. Utility Software	       Performs maintenance tasks on the system.                               	Antivirus, Disk Cleaner
+
+6\. Enterprise Software	    Used in organizations for business processes.	                                ERP systems, CRM tools
+
+
+
+THEORY EXERCISE: What is the difference between system software and application software?
+Ans: Feature	                  System Software                                                                  	  Application Software
+     Purpose	                Manages and controls computer hardware                                             	Helps users perform specific tasks
+    Examples	              Operating Systems, Drivers, Utilities                                       	        MS Word, Photoshop, Web Browsers
+    Runs On          	      Background (automatically)	                                                        Foreground (used by the user directly)
+    User Interaction        Limited direct interaction                                      	                Direct interaction with user
+    Dependency       	    Needed for computer to function                                                 	Runs on top of system software
+
+
+Software Architecture
+THEORY EXERCISE: What is the significance of modularity in software architecture?
+Ans: Modularity in software architecture means dividing a software system into separate, independent modules or components, each responsible for a specific functionality.
+     Improved Maintainability
+– Easier to update or fix individual modules without affecting the whole system.
+     Reusability
+– Modules can be reused in other projects or parts of the application.
+     Better Debugging and Testing
+– Bugs can be isolated and fixed more easily within a specific module.
+
+Layers in Software Architecture
+THEORY EXERCISE: Why are layers important in software architecture?
+ANS:Layers in software architecture refer to organizing software into separate levels, where each layer has a specific role or responsibility. This layered approach is essential for building structured, maintainable, and scalable applications.
+Separation of Concerns
+– Each layer handles a specific task (e.g., UI, business logic, data access), making the system easier to understand and manage.
+Improved Maintainability
+– Changes in one layer (like UI) can be made without affecting others (like database).
+
+Software Environments
+THEORY EXERCISE: Explain the importance of a development environment in software production
+Ans: A development environment is the setup of tools, software, and configurations that developers use to write, test, and debug applications.
+    Efficient Coding
+– Provides code editors, syntax highlighting, and auto-completion to speed up development.
+   Error Detection
+– Integrated debugging tools help identify and fix errors quickly.
+   Faster Testing
+– Includes simulators, testing frameworks, and automation tools to test applications easily.
+
+Source Code
+THEORY EXERCISE: What is the difference between source code and machine code?
+Ans:   Feature	                                     Source Code	                                                                      Machine Code
+Definition	         Human-readable code written by a programmer	                                                 Binary code understood by the computer
+Written In	         High-level programming languages (e.g., C, Python, Java)	                                 Binary (0s and 1s)
+Readability	         Easy for humans to read and understand	                                                         Only readable by machines (not humans)
+Purpose               	 To define logic and instructions	                                                         To execute instructions on the processor
+Needs Conversion	 Yes, needs to be compiled or interpreted	                                                 No conversion needed, runs directly
+
+
+Github and Introductions
+
+THEORY EXERCISE: Why is version control important in software development?
+ANS:Version control is a system that records changes to files over time, so developers can track, manage, and collaborate on code efficientl
+    Tracks Changes
+– Keeps a history of every change made to the code, including who made it and why  
+   Collaboration
+– Multiple developers can work on the same project without overwriting each other’s code.
+  Error Recovery
+– You can revert to earlier versions if something goes wrong (e.g., bugs or broken features).
+  Branching and Merging
+– Developers can create separate branches to add features or fix bugs and merge them later.
+
+
+Student Account in Github 
+  
+THEORY EXERCISE: What are the benefits of using Github for students?
+Ans:GitHub is a platform for hosting and managing code using Git version control. For students, it offers many educational and professional benefits.
+    Free Access to Tools
+– GitHub Student Pack gives free access to premium tools like GitHub Pro, Canva, Namecheap, and more.
+   Version Control Skills
+– Students learn Git, a key skill used in real-world software development.
+
+Types of Software
+
+THEORY EXERCISE: What are the differences between open-source and proprietary software?
+Ans:Open-source software gives users freedom to modify and share.
+    Proprietary software is controlled by a company and usually comes with usage restrictions.
+
+GIT and GITHUB Training
+
+THEORY EXERCISE: How does GIT improve collaboration in a software development team?
+Ans: Git is a distributed version control system that helps teams collaborate on software projects efficiently by tracking changes and managing code versions.
+     Parallel Development
+– Team members can work on different features or bug fixes using branches, without interfering with each other’s work.
+     Version Tracking
+– Git keeps a complete history of all code changes, allowing team members to see who changed what and why.
+
+
+Application Software
+
+THEORY EXERCISE: What is the role of application software in businesses?
+Ans: Application software plays a vital role in businesses by providing tools to enhance efficiency, automate tasks, manage data, and improve communication. It helps businesses manage       various aspects like customer interactions.
+
+Software Development Process
+
+THEORY EXERCISE: What are the main stages of the software development process?
+Ans: The software development process, also known as the Software Development Life Cycle (SDLC), typically includes these main stages: Planning, Analysis, Design, Development, Testing,              Deployment, and Maintenance.
+
+Software Requirement 
+
+THEORY EXERCISE: Why is the requirement analysis phase critical in software development?
+Ans: The requirement analysis phase is critical in software development because it ensures that the software being built aligns with the needs and expectations of its users and   stakeholders.
+
+  Software Analysis
+
+
+THEORY EXERCISE: What is the role of software analysis in the development process?
+Ans:Software analysis plays a crucial role in the development process by ensuring a clear understanding of project requirements and goals before diving into coding. 
+
+
+System Design
+
+THEORY EXERCISE: What are the key elements of system design?
+Ans: Key elements of system design include architecture, data flow, scalability, reliability, security, performance, maintainability, and APIs/interfaces. 
+
+Software Testing
+ 
+THEORY EXERCISE: Why is software testing important?
+Ans:software testing is essential for maintaining a high standard of quality, reliability, and security in any application. 
+
+
+Maintenance
+
+THEORY EXERCISE: What types of software maintenance are there?
+ANS: There are four main types of software maintenance: 
+1)corrective, 
+2)adaptive, 
+3)perfective  and 
+4)preventive.
+
+Development
+
+THEORY EXERCISE: What are the key differences between web and desktop applications?
+Ans: Web applications are accessed through a web browser and typically require an internet connection.
+
+Web Application
+
+THEORY EXERCISE: What are the advantages of using web applications over desktop applications?
+Ans: Web applications offer several advantages over desktop applications, primarily due to their accessibility, ease of updates, and cross-platform compatibility. 
+They are accessible from any device with an internet connection and a web browser.
+
+Designing
+
+THEORY EXERCISE: What role does UI/UX design play in application development?
+Ans:UI/UX design plays a crucial role in application development by ensuring the application is both visually appealing and user-friendly, leading to increased user satisfaction, engagement, and ultimately, the success of the application. 
+
+Mobile Application
+
+THEORY EXERCISE: What are the differences between native and hybrid mobile apps?
+Ans:Native mobile apps are built specifically for one operating system (iOS or Android) using its native programming language, offering optimal performance and access to device features. 
+Hybrid apps, on the other hand, are built using web technologies and wrapped in a native container, allowing them to run on multiple platforms with a single codebase.
+
+
+DFD (Data Flow Diagram)
+
+THEORY EXERCISE: What is the significance of DFDs in system analysis?
+Ans:In system analysis, Data Flow Diagrams (DFDs) are crucial for visualizing and understanding how data moves through a system. 
+
+Desktop Application
+
+THEORY EXERCISE: What are the pros and cons of desktop applications compared to webapplications?
+Ans:Desktop applications generally offer better performance and offline functionality, but web applications are more accessible and easier to update. 
+
+Flow Chart
+
+THEORY EXERCISE: How do flowcharts help in programming and system design?
+Ans:Flowcharts are visual diagrams that represent the flow of a process or system using symbols and arrows. They are very helpful in programming and system design for several reasons:
+
+
+1
+                 **Module 2 – Frontend - HTML**
+
+
+
+                          **HTML Basics**
+
+**Theory Assignment**
+
+
+
+
+
+• Question 1: Define HTML. What is the purpose of HTML in web development?
+
+Ans: HTML stands for HyperText Markup Language. It is the standard language used to create and structure content on the web.
+
+
+
+Purpose of HTML in web development:
+
+
+
+It defines the structure of web pages using elements like headings, paragraphs, links, images, lists, etc.
+
+
+
+It allows browsers to understand and display content properly.
+
+
+
+It works together with CSS (for styling) and JavaScript (for interactivity) to build full-featured websites.
+
+
+
+
+
+• Question 2: Explain the basic structure of an HTML document. Identify the mandatory tagsand
+
+their purposes.
+
+Ans:
+
+&nbsp;<!DOCTYPE html>
+
+<html>
+
+&nbsp; <head>
+
+ <title>Page Title</title>
+
+&nbsp; </head>
+
+&nbsp; <body>
+
+ <!-- Page content goes here -->
+
+&nbsp; </body>
+
+</html>
+
+
+
+
+
+• Question 3: What is the difference between block-level elements and inline elements in
+
+HTML? Provide examples of each.
+
+Ans:  Block-level elements:                                                       
+
+   Start on a new line and take up the full width available
+
+
+
+Examples:
+
+
+
+<div>
+
+
+
+<p>
+
+
+
+<h1> to <h6>
+
+
+
+<ul>, <ol>, <li>
+
+
+
+<section>, <article> 
+
+&nbsp; 
+
+Inline elements:
+
+Do not start on a new line, and only take up as much width as needed.
+
+
+
+Used to style small parts of content inside block-level elements.
+
+
+
+Examples:
+
+
+
+<span>
+
+
+
+<a>
+
+
+
+<strong>, <em>
+
+
+
+<img>
+
+
+
+<label>
+
+
+
+• Question 4: Discuss the role of semantic HTML. Why is it important for accessibility andSEO?
+
+Provide examples of semantic elements.
+
+Ans: Semantic HTML uses meaningful tags that clearly describe the purpose of the content inside them.
+
+
+
+1\. Accessibility:
+
+Helps screen readers and assistive technologies understand the structure and meaning of the content.
+
+
+
+Improves the experience for visually impaired users.
+
+
+
+2\. SEO (Search Engine Optimization):
+
+Search engines use semantic tags to better index and rank content.
+
+
+
+Tags like <article> or <header> help search engines understand which parts of a page are important.
+
+
+
+Tag	                  Meaning
+
+<header>	Represents the page or section header
+
+<nav>	        Contains navigation links
+
+<main>  	Main content of the document
+
+<section>  	Groups related content
+
+<article>	Self-contained content (e.g., blog post)
+
+<footer>	Bottom of page or section
+
+<aside>	        Side content (like ads or sidebars)
+
+
+
+
+
+                         **HTML Forms**
+
+
+
+
+
+Question 1: What are HTML forms used for? Describe the purpose of the input, textarea,
+
+select, and button elements.
+
+Ans: HTML forms are used to collect user input and send it to a server for processing (e.g., login, registration, feedback, etc.).
+
+    Forms are created using the <form> element.
+
+    <input>  =	Accepts single-line input from the user. Can be of different types like text, password, email, checkbox, etc.
+
+  <textarea> = Allows multi-line text input (e.g., comments, messages).
+
+  <select> =	Creates a dropdown list of options. Use <option> inside it. 
+
+  <button> =	Creates a clickable button, usually used to submit or reset a form. 
+
+
+
+Question 2: Explain the difference between the GET and POST methods in form submission.
+
+When should each be used?
+
+Ans: 
+
+✅ GET Method:  Sends form data as part of the URL (in the query string).
+
+             Data is visible in the address bar.
+
+             Limited amount of data can be sent (usually up to 2048 characters).
+
+             Not secure for sensitive data (like passwords)
+
+
+
+Use GET when: The data is not sensitive.
+
+           You want users to bookmark or share the URL with the data.
+
+           Example: Search forms.
+
+
+
+✅ POST Method:  Sends form data in the request body (not visible in the URL).
+
+              Can send large amounts of data.
+
+              More secure than GET for sending sensitive information.
+
+
+
+Use POST when: Sending confidential or sensitive data.
+
+            Storing or updating data in a database (e.g., registration, login).
+
+            File uploads.
+
+
+
+&nbsp;Question 3: What is the purpose of the label element in a form, and how does it improve
+
+accessibility?
+
+Ans: The <label> element is used to define a caption for a form input element like <input>, <textarea>, <select>, etc.
+
+  It helps identify what the input is for, making the form easier to understand and use.
+
+
+
+🎯 How <label> Improves Accessibility:
+
+For Screen Readers: Screen readers can read out the label text, helping visually impaired users understand what each input is for.
+
+
+
+Clickable Area: When linked properly using the for attribute, clicking the label will focus or activate the related input. This helps users with motor difficulties.
+
+
+
+Better Usability: Provides a clear connection between text and input, especially for checkboxes, radio buttons, and text fields.
+
+
+
+
+
+                         **HTML Tables**
+
+
+
+Question 1: Explain the structure of an HTML table and the purpose of each of the following
+
+elements: <table>, <tr>, <th>, <td>, and <thead>.
+
+Ans:  Structure of an HTML Table: An HTML table is used to display tabular data in rows and columns. It is built using a combination of specific tags.
+
+   <table> =	The container element that wraps the entire table.
+
+   <tr> = Stands for table row. Defines a single row in the table.
+
+   <th> = Stands for table header. Used inside <tr> to define header cells. Text is usually bold and centered.
+
+   <td> = Stands for table data. Represents a cell that holds data. Used inside <tr>.
+
+   <thead> =	Groups the header content of the table. Usually contains the <tr> with <th> cells. Helps with accessibility and styling.
+
+
+
+Question 2: What is the difference between colspan and rowspan in tables? Provide
+
+examples
+
+Ans: colspan = "Column span"	Makes a cell span across multiple columns
+
+     rowspan =	"Row span"	Makes a cell span across multiple rows
+
+
+
+1\. colspan Example:
+
+
+
+<table border="1">
+
+&nbsp; <tr>
+
+ <th colspan="2">Students name</th>
+
+&nbsp; </tr>
+
+&nbsp; <tr>
+
+ <td>Name</td>
+
+ <td>Age</td>
+
+&nbsp; </tr>
+
+</table>
+
+
+
+2\. rowspan Example:
+
+
+
+<table border="1">
+
+&nbsp; <tr>
+
+ <th rowspan="2">Name</th>
+
+ <td>Math</td>
+
+&nbsp; </tr>
+
+&nbsp; <tr>
+
+ <td>Science</td>
+
+&nbsp; </tr>
+
+</table>
+
+
+
+Question 3: Why should tables be used sparingly for layout purposes? What is a better
+
+alternative?
+
+Ans: Not Semantic: Tables are meant for tabular data, not for structuring web page layouts.
+
+  Poor Accessibility: Screen readers can be confused when layout tables are used, making the page less accessible.
+
+  Hard to Maintain: Table-based layouts are rigid and complex, especially on large websites.
+
+  Not Responsive: Tables do not adapt well to different screen sizes (mobile, tablet).
+
+     Outdated Practice: Modern web standards recommend CSS for layout instead.
+
+  Better Alternative: CSS Layout
+
+
+
+
+
