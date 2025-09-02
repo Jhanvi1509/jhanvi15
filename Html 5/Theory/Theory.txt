@@ -1,0 +1,39 @@
+
+                     Module 5 – Frontend – HTML5 
+
+Theory Assignment
+
+ Question 1: Difference b/w HTML & HTML5?
+ 
+ANS:
+Difference between HTML and HTML5
+
+1.HTML is the old version, HTML5 is the latest version.
+
+2.HTML needs plugins (like Flash) for audio & video, but HTML5 has <audio> and <video> tags.
+
+3.HTML has fewer form inputs, HTML5 has new inputs like email, date, color.
+
+4.HTML mostly uses <div>, HTML5 adds new semantic tags like <header>, <footer>, <article>.
+
+5.HTML supports only cookies for storage, HTML5 supports Local Storage and Session Storage.
+
+6.HTML doctype is long, HTML5 doctype is short: <!DOCTYPE html>.
+
+
+ Question 2: What are the additional tags used in HTML5?
+
+ANS:
+Additional Tags in HTML5
+
+1.HTML5 introduced new tags for better structure, multimedia, graphics, and forms.
+
+2.Semantic Tags → <header>, <footer>, <nav>, <article>, <section>, <aside>, <main>, <figure>, <figcaption>.
+
+3.Multimedia Tags → <audio>, <video>, <source>, <track>.
+
+4.Graphics Tags → <canvas>, <svg>.
+
+5.Form Tags → <datalist>, <output>, <progress>, <meter> + new input types (email, date, color, etc.).
+
+6.Other Tags → <mark>, <time>, <details>, <summary>, <dialog>.
