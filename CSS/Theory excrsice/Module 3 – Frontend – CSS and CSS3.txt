@@ -1,0 +1,526 @@
+                 Module 3 – Frontend – CSS and CSS3 
+ 
+                        CSS Selectors & Styling
+Theory Assignment:
+
+Question 1: What is a CSS selector? Provide examples of element, class, and ID selectors.
+ANS: A CSS selector is the part of a CSS rule that tells the browser which HTML elements to style.
+It “selects” the elements in your HTML document so you can apply specific styles to them.
+1] Element Selector
+
+Targets HTML elements by their tag name.
+
+p {
+  color: blue;
+}
+
+2] Class Selector
+
+Targets elements with a specific class attribute.
+
+Always starts with a dot (.).
+
+.highlight {
+  background-color: yellow;
+}
+
+3]ID Selector
+
+Targets a unique element with a specific ID.
+
+Always starts with a hash (#).
+
+#mainTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+Question 2: Explain the concept of CSS specificity. How do conflicts between multiple stylesget
+resolved?
+ANS:CSS Specificity
+
+Specificity is a set of rules CSS uses to determine which style to apply when multiple CSS rules target the same element.
+
+Think of it like a “priority system.”
+When there are conflicting styles, the browser decides which one wins based on specificity score.
+
+*How Conflicts Are Resolved
+
+Browser first checks specificity (higher wins).
+
+If specificity is equal, the later rule in the CSS file wins (last one written overrides).
+
+If !important is used, that rule wins — unless another rule with !important and higher specificity exists.
+
+
+Question 3: What is the difference between internal, external, and inline CSS? Discuss the
+advantages and disadvantages of each approach.
+ANS: 1. Inline CSS
+
+CSS written directly inside an HTML element using the style attribute.
+
+<p style="color: blue; font-size: 18px;">This is inline CSS</p>
+
+
+✅ Advantages
+
+Quick and easy to apply for a single element.
+
+Useful for testing or overriding styles fast.
+
+❌ Disadvantages
+
+Makes HTML code messy and hard to maintain.
+
+Styles cannot be reused.
+
+2. Internal CSS
+
+CSS written inside a <style> tag in the head section of an HTML file.
+
+<head>
+  <style>
+    p {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <p>This is internal CSS</p>
+</body>
+
+
+✅ Advantages
+
+Keeps styles in one place for a single page.
+
+Easier to manage than inline CSS.
+
+Can target multiple elements within the same page.
+
+❌ Disadvantages
+
+Styles apply only to one HTML page.
+
+If you have many pages, you’d need to copy the CSS to each one (not efficient).
+
+3. External CSS
+
+CSS written in a separate .css file, then linked to the HTML using <link>.
+
+<!-- HTML file -->
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- styles.css -->
+p {
+  color: red;
+  font-size: 18px;
+}
+
+
+✅ Advantages
+
+Best for large projects (can apply the same CSS to multiple pages).
+
+Clean and organized: HTML and CSS are kept separate.
+
+CSS file is cached by the browser → faster loading on multiple pages.
+
+❌ Disadvantages
+
+Requires an extra HTTP request (loading the CSS file).
+
+If the external file is missing or not loaded, the page loses styling.
+
+                                CSS Box Model
+
+
+Question 1: Explain the CSS box model and its components (content, padding, border,
+margin). How does each affect the size of an element?
+ANS: CSS Box Model
+
+The CSS box model describes how every HTML element is treated as a rectangular box.
+It defines the layout and spacing of elements on a webpage.
+
+Each element is made up of four main components (from inside out):
+
+1. Content
+
+The actual text, image, or other content inside the element.
+
+Its size is controlled by properties like width, height, font-size, etc.
+
+2. Padding
+
+The space between the content and the border.
+
+Increases the clickable/visible area inside the element without affecting outside spacing.
+
+3. Border
+
+A line surrounding the padding and content.
+
+You can control its width, style, and color.
+
+4. Margin
+
+The space outside the border, creating distance between this element and others.
+
+Effect on Element Size
+
+By default (box-sizing: content-box):
+Total Element Width = Content + Padding + Border + Margin
+Total Element Height = Content + Padding + Border + Margin
+
+Question 2: What is the difference between border-box and content-box box-sizing inCSS?
+Which is the default?
+ANS:
+box-sizing in CSS
+
+The box-sizing property tells the browser how to calculate the total size of an element (width and height).
+
+There are two main values:
+
+1. content-box (Default)
+
+Width & height apply only to the content area.
+
+Padding and border are added outside the defined width/height.
+
+2. border-box
+
+Width & height include content + padding + border.
+
+The element will not grow bigger when padding or border is added.
+
+
+                                                         CSS Flexbox
+
+
+
+Theory Assignment
+
+Question 1: What is CSS Flexbox, and how is it useful for layout design? Explain the terms
+flex-container and flex-item.
+ANS:
+Definition: CSS Flexbox is a layout model that makes it easier to design responsive and flexible layouts.
+
+Instead of using float, table, or positioning tricks, Flexbox allows elements to adjust and distribute space automatically within a container.
+
+It is mainly used for arranging items in rows or columns, and it can handle alignment, spacing, and distribution of elements very effectively.
+1. Flex-Container
+
+The parent element where display: flex; is applied.
+
+It controls how its child elements (flex-items) behave.
+2. Flex-Item
+
+The direct child elements inside a flex-container.
+
+These items flex (grow, shrink, or stay fixed) according to the container’s rules.
+
+Question 2: Describe the properties justify-content, align-items, and flexdirection used in Flexbox.
+ANS:
+1. justify-content
+
+👉 Controls horizontal alignment of flex-items inside the flex-container (main axis).
+
+Values:
+
+flex-start → Items start from the left (default).
+
+flex-end → Items move to the right.
+
+center → Items are centered horizontally.
+
+space-between → Equal space between items, edges touch container.
+
+space-around → Equal space around items (half-space at edges).
+
+space-evenly → Equal space between and outside items.
+2. align-items
+
+👉 Controls vertical alignment of flex-items (cross axis).
+
+Values:
+
+stretch → Items stretch to fill the container’s height (default).
+
+flex-start → Items align at the top.
+
+flex-end → Items align at the bottom.
+
+center → Items align in the vertical center.
+
+baseline → Items align based on their text baseline.
+3. flex-direction
+
+👉 Defines the direction of the main axis (row or column).
+
+Values:
+
+row → Items go left to right (default).
+
+row-reverse → Items go right to left.
+
+column → Items go top to bottom.
+
+column-reverse → Items go bottom to top.
+
+
+                                       CSS Grid
+
+
+Theory Assignment
+
+Question 1: Explain CSS Grid and how it differs from Flexbox. When would you use Grid over
+Flexbox?
+ANS:
+CSS Grid
+
+Definition: CSS Grid is a 2D layout system in CSS that allows you to create layouts using rows and columns.
+
+It’s like drawing a table, but much more powerful and flexible.
+
+You can divide a container into grid cells and place items exactly where you want.
+When to Use Grid over Flexbox
+
+✅ Use Flexbox when:
+
+You need to align items in one direction (row or column).
+
+Example: Navbars, toolbars, aligning buttons.
+
+✅ Use Grid when:
+
+You need a two-dimensional layout (rows + columns).
+
+Example: Full webpage layout, image galleries, dashboards.
+
+Question 2: Describe the grid-template-columns, grid-template-rows, and grid-gap
+properties. Provide examples of how to use them.
+ANS:
+1. grid-template-columns
+
+👉 Defines how many columns the grid will have and their sizes.
+
+Values can be:
+
+Fixed units (px, em)
+
+Flexible units (fr → fraction of available space)
+
+Percentages (%)
+
+auto → adjusts to content
+. grid-template-rows
+
+👉 Defines how many rows the grid will have and their sizes.
+3. grid-gap (or gap in modern CSS)
+
+👉 Defines the spacing (gutters) between rows and columns.
+
+                             Responsive Web Design with Media Queries
+
+Theory Assignment
+
+Question 1: What are media queries in CSS, and why are they important for responsive
+design?
+ANS:
+Media Queries in CSS
+
+Definition: Media queries are CSS rules that apply styles based on the device’s characteristics such as screen size, resolution, or orientation.
+
+They allow a website to adapt its layout depending on whether it’s viewed on a phone, tablet, laptop, or large screen
+
+Why Media Queries Are Important for Responsive Design
+
+Mobile-Friendly Websites → Layout automatically adjusts for small screens.
+
+Better User Experience (UX) → Content is readable and well-organized across all devices.
+
+Cross-Device Compatibility → Works on phones, tablets, desktops, and TVs.
+
+Efficient Layout Control → Different designs for portrait vs landscape orientation.
+
+Question 2: Write a basic media query that adjusts the font size of a webpage for screens
+smaller than 600px
+ANS:
+/* Default font size for large screens */
+body {
+  font-size: 18px;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* smaller font for small screens */
+  }
+}
+✅ Explanation:
+
+@media (max-width: 600px) → This means the CSS inside will apply only if the screen width is 600px or less.
+
+On big screens → font size = 18px.
+
+On small screens (mobile) → font size = 14px.
+
+
+                                           Typography and Web Fonts
+
+Theory Assignment
+
+Question 1: Explain the difference between web-safe fonts and custom web fonts. Whymight
+you use a web-safe font over a custom font?
+ANS:
+1. Web-Safe Fonts
+
+Definition: Web-safe fonts are the default fonts pre-installed on almost all devices and operating systems.
+
+Examples: Arial, Times New Roman, Georgia, Verdana, Courier New, Tahoma.
+
+Since they are already installed, browsers don’t need to download them → they load fast and look the same across most devices.
+
+✅ Advantages:
+
+No extra loading time.
+
+High compatibility (work across devices).
+
+Good for performance.
+
+❌ Disadvantages:
+
+Limited design choices.
+
+Can look too common or less stylish.
+2. Custom Web Fonts
+
+Definition: Custom fonts are fonts that are not installed by default on devices, but are loaded from external sources (like Google Fonts, Adobe Fonts, or a self-hosted file).
+
+Example: Roboto, Open Sans, Lobster, Montserrat.
+
+✅ Advantages:
+
+Wide variety → more creative and unique designs.
+
+Consistent branding (match a company’s identity).
+
+❌ Disadvantages:
+
+Require downloading (slower performance).
+
+Might cause "flash of unstyled text" (FOUT) while loading.
+
+If external font source fails, fallback is needed.
+
+Why Use Web-Safe Fonts Over Custom Fonts?
+
+You might choose web-safe fonts when:
+
+Performance is critical (fast load times, especially on slow networks).
+
+Compatibility is needed across very old devices/browsers.
+
+Minimalist design → you don’t need fancy fonts.
+
+You want to avoid dependency on external font providers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
