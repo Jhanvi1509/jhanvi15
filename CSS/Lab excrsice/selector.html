@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #contactForm {
+            background-color: #f0f8ff;
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .inputField {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        #submitBtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        #submitBtn:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form id="contactForm">
+        <h2>Contact Us</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="inputField" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="inputField" placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" class="inputField" rows="4" placeholder="Type your message"></textarea>
+
+        <button type="submit" id="submitBtn">Send</button>
+    </form>
+</body>
+
+</html>
