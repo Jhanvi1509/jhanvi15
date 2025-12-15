@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Conditional Statements</title>
+</head>
+<body>
+
+    <h1>JavaScript If-Else & Switch Example</h1>
+
+    <script>
+        // ===== Task 1: Check Positive, Negative, or Zero =====
+        let number = 5;
+
+        if (number > 0) {
+            console.log("The number is Positive");
+        } else if (number < 0) {
+            console.log("The number is Negative");
+        } else {
+            console.log("The number is Zero");
+        }
+
+        // ===== Task 2: Display Day of the Week =====
+        let day = 3; // User input (1 to 7)
+
+        switch (day) {
+            case 1:
+                console.log("Monday");
+                break;
+            case 2:
+                console.log("Tuesday");
+                break;
+            case 3:
+                console.log("Wednesday");
+                break;
+            case 4:
+                console.log("Thursday");
+                break;
+            case 5:
+                console.log("Friday");
+                break;
+            case 6:
+                console.log("Saturday");
+                break;
+            case 7:
+                console.log("Sunday");
+                break;
+            default:
+                console.log("Invalid day number");
+        }
+    </script>
+
+</body>
+</html>
